@@ -2,7 +2,7 @@
 $pageTitle = "Personal Media Library";
 include("inc/header.php"); ?>
 
-    <div class="section catalog random">
+    <div class="section catalog">
 
     <div class="wrapper">
 

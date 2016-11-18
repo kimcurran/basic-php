@@ -1,0 +1,50 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  background-color: #4abdac;
+  height: 120px;
+}
+
+.branding-title {
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.branding-title a {
+  text-decoration: none;
+  color: #dfdce3;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline;
+  float: right;
+  padding-top: 50px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  padding-right: 25px;
+}
+
+#content {
+  margin-top: 30px;
+}
+
+i {
+  padding-right: 5px;
+  color: #f7b733;
+}
