@@ -20,7 +20,7 @@ body {
 
 .branding-title a {
   text-decoration: none;
-  color: #dfdce3;
+  color: #fff;
 }
 
 .nav {
@@ -38,6 +38,12 @@ body {
   color: #fff;
   font-family: 'Playfair Display', serif;
   padding-right: 25px;
+}
+
+.nav li a:hover,
+.nav li a:focus,
+.nav li a:active {
+  color: #dfdce3;
 }
 
 #content {
