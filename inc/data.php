@@ -21,42 +21,42 @@
     "category" => "books"
   ];
   $catalog[11] = [
-    "title" => "good will hunting",
+    "title" => "Good Will Hunting",
     "img" => "img/good-will-hunting.png",
     "category" => "movies"
   ];
   $catalog[12] = [
-    "title" => "american history x",
+    "title" => "American History X",
     "img" => "img/american-history-x.jpg",
     "category" => "movies"
   ];
   $catalog[13] = [
-    "title" => "the social network",
+    "title" => "The Social Network",
     "img" => "img/the-social-network.jpg",
     "category" => "movies"
   ];
   $catalog[14] = [
-    "title" => "500 days of summer",
+    "title" => "500 Days of Summer",
     "img" => "img/500-days-of-summer.jpg",
     "category" => "movies"
   ];
   $catalog[21] = [
-    "title" => "jamie xx",
+    "title" => "Jamie xx",
     "img" => "img/jamie-xx.jpg",
     "category" => "music"
   ];
   $catalog[22] = [
-    "title" => "m83",
+    "title" => "M83",
     "img" => "img/m83.jpg",
     "category" => "music"
   ];
   $catalog[23] = [
-    "title" => "flume",
+    "title" => "Flume",
     "img" => "img/flume.jpg",
     "category" => "music"
   ];
   $catalog[24] = [
-    "title" => "local natives",
+    "title" => "Local Natives",
     "img" => "img/local-natives.jpg",
     "category" => "music"
   ];
