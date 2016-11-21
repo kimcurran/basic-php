@@ -60,4 +60,3 @@
     "img" => "img/local-natives.jpg",
     "category" => "music"
   ];
-?>
