@@ -10,16 +10,20 @@ function get_item($id, $item) {
 }
 
 function get_category($catalog, $category) {
-  if ($category == null) {
-  	return array_keys($catalog);
-  }
   $result = array();
+
   foreach ($catalog as $id => $item) {
-  	if ($category == $item["category"]) {
-  	  $result[] = $id;
+  	if ($category == null OR $category == $item["category"]) {
+  	  $sort = $item["title"];
+  	  $sort = ltrim($sort, "The ");
+  	  $sort = ltrim($sort, "A ");
+  	  $sort = ltrim($sort, "An ");
+  	  $result[$id] = $sort;
   	}
   }
-  return $result;
+
+  asort($result);
+  return array_keys($result);
 }
 
 ?>
