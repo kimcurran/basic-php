@@ -23,7 +23,7 @@ include("inc/header.php"); ?>
 <div class="section catalog page">
   <h1><?php
   if ($section != null) {
-    echo "<a href='catalog.php'>Full Catalog</a> &gt; ";
+    echo "<a href='catalog.php'>Full Catalog</a> <span class='arrow'>&gt;</span> ";
   }
   echo $pageTitle; ?></h1>
 
@@ -36,5 +36,3 @@ include("inc/header.php"); ?>
   	?>
   </ul>
 </div>
-
-<?php include("inc/footer.php"); ?>

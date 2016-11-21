@@ -23,5 +23,3 @@ include("inc/functions.php"); ?>
 
     </div>
   </div>
-
-<?php include("inc/footer.php"); ?>

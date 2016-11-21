@@ -6,6 +6,45 @@ body {
   border: 0;
 }
 
+h1,
+h2,
+p {
+  color: #2e2e2e;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1,
+h2 {
+  padding-top: 10px;
+  padding-left: 60px;
+  font-size: 24px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+h1 a:hover,
+h1 a:focus,
+h1 a:active {
+  color: #f7b733;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .header {
   background-color: #4abdac;
   height: 120px;
@@ -16,6 +55,7 @@ body {
   float: left;
   padding-top: 20px;
   padding-left: 25px;
+  font-size: 30px;
 }
 
 .branding-title a {
@@ -26,6 +66,11 @@ body {
 .nav,
 .items {
   list-style-type: none;
+}
+
+.items {
+  padding-left: 0;
+  text-align: center;
 }
 
 .items li {
@@ -59,6 +104,10 @@ body {
 i {
   padding-right: 5px;
   color: #f7b733;
+}
+
+.arrow {
+  color: #dfdce3;
 }
 
 .catalog-img {
