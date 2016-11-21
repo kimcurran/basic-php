@@ -113,3 +113,52 @@ i {
 .catalog-img {
   height: 200px;
 }
+
+input,
+textarea,
+label,
+button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+textarea,
+input {
+  width: 40%;
+  margin-bottom: 20px;
+  border: 2px solid #2e2e2e;
+  padding: 5px;
+}
+
+label {
+  padding-bottom: 5px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  margin-top: 25px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color: #4abdac;
+  width: 150px;
+  background-color: #4c4c4c;
+  border: 4px solid #4abdac;
+}
+
+button:hover,
+button:focus {
+  border: 4px solid #f7b733;
+  color: #f7b733;
+}
