@@ -2,7 +2,7 @@
 <head>
   <title><?php echo $pageTitle; ?></title>
   <link rel="stylesheet" href="css/style.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans" rel="stylesheet">
   <script src="https://use.fontawesome.com/b632aca4d3.js"></script>
 </head>
 <body>
