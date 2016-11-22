@@ -10,7 +10,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   	exit;
   }
 
-  //TODO send email
+  require("inc/phpmailer/class.phpmailer.php");
+
+  $mail = new PHPMailer;
+  if(!$mail->ValidateAddress($email)) {
+  	echo "Invalid Email Address";
+  	exit;
+  }
+
+  $email_body = "";
+  $email_body .= "Name " . $name . "\n";
+  $email_body .= "Email " . $email . "\n";
+  $email_body .= "Suggestion " . $suggestion . "\n";
+
+  $mail->setFrom($email, $name);
+  $mail->addAddress('kcurran@thinkhr.com', 'Kim Curran');
+
+  $mail->isHTML(false);
+
+  $mail->Subject = 'Personal Media Library Suggestion';
+  $mail->Body    = $email_body;
+
+  if(!$mail->send()) {
+      echo 'Message could not be sent.';
+      echo 'Mailer Error: ' . $mail->ErrorInfo;
+      exit;
+  } 
+  
   header("location:suggest.php?status=thanks");
 }
 
