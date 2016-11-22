@@ -165,3 +165,7 @@ button:focus {
   color: #f7b733;
   outline: none;
 }
+
+#suggest-form p {
+  padding-left: 60px;
+}
