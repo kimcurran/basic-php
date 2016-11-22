@@ -1,9 +1,14 @@
 <?php 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = $_POST["name"];
-  $email = $_POST["email"];
-  $suggestion = $_POST["suggestion"];
+  $name = trim(filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING));
+  $email = trim(filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL));
+  $suggestion = trim(filter_input(INPUT_POST, "suggestion", FILTER_SANITIZE_SPECIAL_CHARS));
+
+  if ($name == "" OR $email = "" OR $suggestion = "") {
+  	echo "Please fill in all required fields!";
+  	exit;
+  }
 
   //TODO send email
   header("location:suggest.php?status=thanks");
